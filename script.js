@@ -19,6 +19,7 @@ domReady(function () {
         query_params = Object.fromEntries(new URLSearchParams(parsed_url.search));
         mc_value = query_params.mc || null;
         alert("MCC is : " + mc_value);
+        html5QrcodeScanner.clear();
 
         //alert("You Qr is : " + decodeText, decodeResult);
 
