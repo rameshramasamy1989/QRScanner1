@@ -37,7 +37,7 @@ const qrCodeSuccessCallback = (decodedText, decodedResult) => {
     parsed_url = new URL(decodeText);
         query_params = Object.fromEntries(new URLSearchParams(parsed_url.search));
         mc_value = query_params.mc || null;
-        alert("MCC code is : " + mc_value);
+        alert("MCCxx code is : " + mc_value);
 };
 const config = { fps: 10, qrbox: { width: 250, height: 250 } };
 
